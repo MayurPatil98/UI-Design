@@ -1,0 +1,285 @@
+*, .container-fluid
+{
+    box-sizing: border-box;
+    color:  white;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.navbar
+{
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin: 0%;
+}
+.nav-link:hover
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar-toggler-icon
+{
+    background-color: rgb(192, 189, 189);
+    border-radius: 4px;
+}
+.navbar button{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar a{
+    color: white;
+}
+.banner img
+{
+    height: 100vh;
+    width: 100vw;
+}
+.card1 img{
+    width: 100%;
+    height: 550px;
+}
+.card1
+{
+    margin-top: 40px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#about > h3{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.card-text-div h5, p{
+    margin: 25px;
+    text-align: center;
+    /* justify-content: center; */
+}
+.card-text-div h3{
+    margin-top: 15vh;
+    text-align: center;
+    border: none
+}
+.level-head h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#about, #level
+{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+#level .col-md-3{
+    padding: 2%;
+    overflow: auto;
+}
+.card2-sbhead{
+    overflow: auto;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: black;
+    margin: 10px;
+    padding: 4px;
+}
+#level p{
+    font-size: 18px;
+}
+.card21
+{
+    overflow: auto;
+    background-color: chocolate;
+}
+.card22
+{
+        overflow: auto;
+    background-color: darkcyan;
+}
+.card23
+{
+        overflow: auto;
+    background-color: blueviolet;
+}
+.card24
+{
+        overflow: auto;
+    background-color: firebrick;
+}
+.level-div div{
+    text-align: center;
+}
+.stylecard img
+{
+    position: relative;
+    z-index: -12;
+    width: 100%;
+    height: 200px;
+    border: 4px solid white;
+
+}
+.stylecard
+{
+    /* display:inline-block; */
+    position: relative;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.styles-head
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.stylecard .imgdiv
+{
+    position: relative;
+    z-index: -2;
+}
+.stylecard .cardname
+{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    padding-top: 80px;;
+    font-size: 25px;
+    font-weight: bolder;
+    top: 0px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.4;
+}
+.stylecard .cardname:hover
+{
+    visibility:collapse;
+}
+.stylecard .imgdiv:hover
+{
+opacity: 1;
+}
+.price .heading
+{
+    text-align: center;
+    font-size: 35px;
+    margin-left: 5%;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.price .mnt-div{
+    text-align: center;
+    background-color: rgb(241, 241, 240);
+    border-radius: 10px;
+    color: black;
+}
+.price .anl-div{
+    text-align: center;
+    background-color: rgb(214, 255, 241);
+    border-radius: 10px;
+    color: black;
+}
+.discount
+{
+    height: 50px;
+    background-color: rgb(171, 248, 223);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: green;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.mnt-discount
+{
+    height: 50px;
+    background-color: black;
+}
+.price .head{
+    text-align: left;
+    padding: 10px 10%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+.amt-line
+{
+    text-align: left;
+    color: black;
+    font-weight: bolder;
+    padding-left: 10%;
+    font-size: 20px;
+}
+.amt
+{
+    font-size: 100px;
+    color: black;
+    font-weight: bolder;
+}
+.price .row
+{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.button-1 button, .button-2 button
+{
+    margin: 20px 0px;
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(109, 109, 252);
+}
+.button-1 button:hover, .button-2 button:hover
+{
+    background-color: green;
+}
+.price del
+{   
+    color: black;
+}
+.button-1, .button-2
+{
+    padding: 5%;
+}
+.amount
+{
+    color: black;
+    font-weight: bolder;
+}
+.mnt-div head
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+footer .head
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.ft .col-md-3 div
+{
+    text-align: center;
+    padding: 10px;
+}
+footer
+{
+    border-top: 1px solid rgb(231, 231, 231);
+    margin-top: 20px;
+}
+footer .col-md-4 img
+{
+    width: 30px;
+    margin: 8%;
+}
